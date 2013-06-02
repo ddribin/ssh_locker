@@ -3,220 +3,252 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		555649D20CFCE94200FE70D6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555649D10CFCE94200FE70D6 /* Security.framework */; };
-		8DD76F9A0486AA7600D96B5E /* ssh_locker.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* ssh_locker.m */; settings = {ATTRIBUTES = (); }; };
-		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
-		8DD76F9F0486AA7600D96B5E /* ssh_locker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* ssh_locker.1 */; };
+		55E85D48175BE1070048DE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E85D47175BE1070048DE9B /* Foundation.framework */; };
+		55E85D4F175BE1070048DE9B /* ssh_locker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55E85D4E175BE1070048DE9B /* ssh_locker.1 */; };
+		55E85D56175BE5DA0048DE9B /* ssh_locker.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E85D55175BE5DA0048DE9B /* ssh_locker.m */; };
+		55E85D58175BE5F50048DE9B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E85D57175BE5F50048DE9B /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+		55E85D42175BE1070048DE9B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				8DD76F9F0486AA7600D96B5E /* ssh_locker.1 in CopyFiles */,
+				55E85D4F175BE1070048DE9B /* ssh_locker.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08FB7796FE84155DC02AAC07 /* ssh_locker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssh_locker.m; sourceTree = "<group>"; };
-		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32A70AAB03705E1F00C91783 /* ssh_locker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssh_locker_Prefix.pch; sourceTree = "<group>"; };
-		555649D10CFCE94200FE70D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
-		8DD76FA10486AA7600D96B5E /* ssh_locker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ssh_locker; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6859EA3029092ED04C91782 /* ssh_locker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ssh_locker.1; sourceTree = "<group>"; };
+		55E85D44175BE1070048DE9B /* ssh_locker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ssh_locker; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E85D47175BE1070048DE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E85D4D175BE1070048DE9B /* ssh_locker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ssh_locker-Prefix.pch"; sourceTree = "<group>"; };
+		55E85D4E175BE1070048DE9B /* ssh_locker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ssh_locker.1; sourceTree = "<group>"; };
+		55E85D55175BE5DA0048DE9B /* ssh_locker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssh_locker.m; sourceTree = "<group>"; };
+		55E85D57175BE5F50048DE9B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+		55E85D41175BE1070048DE9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
-				555649D20CFCE94200FE70D6 /* Security.framework in Frameworks */,
+				55E85D58175BE5F50048DE9B /* Security.framework in Frameworks */,
+				55E85D48175BE1070048DE9B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08FB7794FE84155DC02AAC07 /* sshlocker */ = {
+		55E85D3B175BE1060048DE9B = {
 			isa = PBXGroup;
 			children = (
-				08FB7795FE84155DC02AAC07 /* Source */,
-				C6859EA2029092E104C91782 /* Documentation */,
-				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
-				1AB674ADFE9D54B511CA2CBB /* Products */,
+				55E85D57175BE5F50048DE9B /* Security.framework */,
+				55E85D49175BE1070048DE9B /* ssh_locker */,
+				55E85D46175BE1070048DE9B /* Frameworks */,
+				55E85D45175BE1070048DE9B /* Products */,
 			);
-			name = sshlocker;
 			sourceTree = "<group>";
 		};
-		08FB7795FE84155DC02AAC07 /* Source */ = {
+		55E85D45175BE1070048DE9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32A70AAB03705E1F00C91783 /* ssh_locker_Prefix.pch */,
-				08FB7796FE84155DC02AAC07 /* ssh_locker.m */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				555649D10CFCE94200FE70D6 /* Security.framework */,
-				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
-			);
-			name = "External Frameworks and Libraries";
-			sourceTree = "<group>";
-		};
-		1AB674ADFE9D54B511CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8DD76FA10486AA7600D96B5E /* ssh_locker */,
+				55E85D44175BE1070048DE9B /* ssh_locker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6859EA2029092E104C91782 /* Documentation */ = {
+		55E85D46175BE1070048DE9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6859EA3029092ED04C91782 /* ssh_locker.1 */,
+				55E85D47175BE1070048DE9B /* Foundation.framework */,
 			);
-			name = Documentation;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E85D49175BE1070048DE9B /* ssh_locker */ = {
+			isa = PBXGroup;
+			children = (
+				55E85D55175BE5DA0048DE9B /* ssh_locker.m */,
+				55E85D4E175BE1070048DE9B /* ssh_locker.1 */,
+				55E85D4C175BE1070048DE9B /* Supporting Files */,
+			);
+			path = ssh_locker;
+			sourceTree = "<group>";
+		};
+		55E85D4C175BE1070048DE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E85D4D175BE1070048DE9B /* ssh_locker-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DD76F960486AA7600D96B5E /* ssh_locker */ = {
+		55E85D43175BE1070048DE9B /* ssh_locker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "ssh_locker" */;
+			buildConfigurationList = 55E85D52175BE1070048DE9B /* Build configuration list for PBXNativeTarget "ssh_locker" */;
 			buildPhases = (
-				8DD76F990486AA7600D96B5E /* Sources */,
-				8DD76F9B0486AA7600D96B5E /* Frameworks */,
-				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+				55E85D40175BE1070048DE9B /* Sources */,
+				55E85D41175BE1070048DE9B /* Frameworks */,
+				55E85D42175BE1070048DE9B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ssh_locker;
-			productInstallPath = "$(HOME)/bin";
-			productName = sshlocker;
-			productReference = 8DD76FA10486AA7600D96B5E /* ssh_locker */;
+			productName = ssh_locker;
+			productReference = 55E85D44175BE1070048DE9B /* ssh_locker */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		08FB7793FE84155DC02AAC07 /* Project object */ = {
+		55E85D3C175BE1060048DE9B /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "ssh_locker" */;
-			compatibilityVersion = "Xcode 3.0";
-			hasScannedForEncodings = 1;
-			mainGroup = 08FB7794FE84155DC02AAC07 /* sshlocker */;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dave Dribin";
+			};
+			buildConfigurationList = 55E85D3F175BE1060048DE9B /* Build configuration list for PBXProject "ssh_locker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55E85D3B175BE1060048DE9B;
+			productRefGroup = 55E85D45175BE1070048DE9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DD76F960486AA7600D96B5E /* ssh_locker */,
+				55E85D43175BE1070048DE9B /* ssh_locker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8DD76F990486AA7600D96B5E /* Sources */ = {
+		55E85D40175BE1070048DE9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD76F9A0486AA7600D96B5E /* ssh_locker.m in Sources */,
+				55E85D56175BE5DA0048DE9B /* ssh_locker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1DEB927508733DD40010E9CD /* Debug */ = {
+		55E85D50175BE1070048DE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ssh_locker_Prefix.pch;
-				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = ssh_locker;
-				ZERO_LINK = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		1DEB927608733DD40010E9CD /* Release */ = {
+		55E85D51175BE1070048DE9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ssh_locker_Prefix.pch;
-				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = ssh_locker;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		1DEB927908733DD40010E9CD /* Debug */ = {
+		55E85D53175BE1070048DE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ssh_locker/ssh_locker-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1DEB927A08733DD40010E9CD /* Release */ = {
+		55E85D54175BE1070048DE9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ssh_locker/ssh_locker-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "ssh_locker" */ = {
+		55E85D3F175BE1060048DE9B /* Build configuration list for PBXProject "ssh_locker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB927508733DD40010E9CD /* Debug */,
-				1DEB927608733DD40010E9CD /* Release */,
+				55E85D50175BE1070048DE9B /* Debug */,
+				55E85D51175BE1070048DE9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "ssh_locker" */ = {
+		55E85D52175BE1070048DE9B /* Build configuration list for PBXNativeTarget "ssh_locker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB927908733DD40010E9CD /* Debug */,
-				1DEB927A08733DD40010E9CD /* Release */,
+				55E85D53175BE1070048DE9B /* Debug */,
+				55E85D54175BE1070048DE9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+	rootObject = 55E85D3C175BE1060048DE9B /* Project object */;
 }
